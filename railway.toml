@@ -5,21 +5,3 @@ builder = "nixpacks"
 startCommand = "yarn start"
 healthcheckPath = "/health"
 healthcheckTimeout = 300
-```
-
----
-
-## Alternative: Override the build in Railway Dashboard
-
-Since the file approach isn't working, let's override it directly in Railway:
-
-1. **Go to your Railway service**
-2. **Click on "Settings"** tab
-3. **Scroll to "Build" section**
-4. **Find "Build Command"** and set it to:
-```
-   yarn install --frozen-lockfile
-```
-5. **Find "Install Command"** and set it to:
-```
-   yarn install --frozen-lockfile
