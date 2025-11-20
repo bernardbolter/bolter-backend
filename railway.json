@@ -1,0 +1,8 @@
+{
+  "build": {
+    "builder": "railpack",
+    "railpack": {
+      "packageManager": "yarn@1"
+    }
+  }
+}
