@@ -1,0 +1,4 @@
+{
+  "extends": "@medusajs/admin-ui/tsconfig.json",
+  "include": ["src"]
+}

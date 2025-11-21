@@ -1,0 +1,13 @@
+{
+  "name": "admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "medusa-admin dev",
+    "build": "medusa-admin build"
+  },
+  "dependencies": {
+    "@medusajs/admin-ui": "latest"
+  }
+}

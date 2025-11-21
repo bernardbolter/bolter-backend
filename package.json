@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@medusajs/admin-sdk": "2.11.3",
+    "@medusajs/admin-ui": "latest",
     "@medusajs/cli": "2.11.3",
     "@medusajs/framework": "2.11.3",
     "@medusajs/medusa": "2.11.3"
