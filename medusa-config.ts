@@ -1,3 +1,4 @@
+// DEBUG: THIS IS THE FIXED CONFIG – Fri Nov 21 14:05:48 CET 2025
 import { defineConfig } from '@medusajs/framework/utils'
 
 module.exports = defineConfig({
