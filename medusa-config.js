@@ -1,6 +1,10 @@
+// medusa-config.js
+require('dotenv').config();  // Load .env file (for Render secret file)
+
 module.exports = {
   projectConfig: {
     databaseUrl: process.env.DATABASE_URL,
+    redisUrl: process.env.REDIS_URL,  // Optional
     http: {
       storeCors: process.env.STORE_CORS || "",
       adminCors: process.env.ADMIN_CORS || "",
@@ -8,8 +12,8 @@ module.exports = {
       jwtSecret: process.env.JWT_SECRET,
       cookieSecret: process.env.COOKIE_SECRET,
     },
-    adminUi: false,
+    admin: {
+      disable: process.env.ADMIN_DISABLED === "true" || true,  // Disable admin to skip bundler
+    },
   },
-  // Optional: add plugins, modules, etc. here if you have them
-  // plugins: [],
-}
+};
