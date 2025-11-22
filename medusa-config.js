@@ -8,6 +8,7 @@ module.exports = {
       jwtSecret: process.env.JWT_SECRET,
       cookieSecret: process.env.COOKIE_SECRET,
     },
+    adminUi: false,
   },
   // Optional: add plugins, modules, etc. here if you have them
   // plugins: [],
